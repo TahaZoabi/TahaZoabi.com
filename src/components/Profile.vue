@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Download } from "lucide-vue-next";
 import { socialLinks } from "@/lib/SocialLinks.ts";
 import DarkMode from "@/components/DarkMode.vue";
+import Resume from "/Resume.pdf";
 </script>
 
 <template>
@@ -23,7 +24,7 @@ import DarkMode from "@/components/DarkMode.vue";
         </h5>
         <div class="flex justify-center items-center gap-2 mb-4">
           <MapPin />
-          <p class="text-muted-foreground text-lg">Nein, Israel</p>
+          <p class="text-muted-foreground text-md">Nein, Israel</p>
         </div>
         <p class="text-muted-foreground text-sm">
           Driven to build projects that expand my skills and master the latest
@@ -36,7 +37,7 @@ import DarkMode from "@/components/DarkMode.vue";
           variant="outline"
         >
           <Download />
-          Resume
+          <a :href="Resume" download="TahaZoabi.pdf"> Resume </a>
         </Button>
         <ul class="flex justify-center items-center gap-3 p-3">
           <li
