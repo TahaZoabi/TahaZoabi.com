@@ -32,7 +32,7 @@ import { Github, ExternalLink } from "lucide-vue-next";
             {{ desc }}
           </li>
         </ul>
-        <ul class="flex flex-wrap items-center gap-2 space-y-1">
+        <ul class="flex flex-wrap items-center gap-2">
           <li
             v-for="tool in project.tools"
             :key="tool"
