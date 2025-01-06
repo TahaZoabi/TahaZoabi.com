@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ExternalLink } from "lucide-vue-next";
+</script>
 
 <template>
   <div class="flex flex-col justify-center gap-4 mt-12">
@@ -18,6 +20,14 @@
         <p class="text-xs text-muted-foreground md:text-sm">
           January 2024 - Present
         </p>
+        <a
+          href="https://www.pet.ac.il/"
+          target="_blank"
+          class="hover:text-primary flex items-center gap-2 text-sm"
+        >
+          <ExternalLink class="size-5" />
+          Official Site
+        </a>
       </div>
     </div>
   </div>

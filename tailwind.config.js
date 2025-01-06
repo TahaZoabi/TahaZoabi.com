@@ -93,8 +93,8 @@ module.exports = {
         },
       },
       animation: {
-        fadeInLeft: "fadeInLeft 2s ease-out forwards",
-        fadeInUp: "fadeInUp 2s ease-out forwards",
+        fadeInLeft: "fadeInLeft 1s ease-out forwards",
+        fadeInUp: "fadeInUp 1s ease-out forwards",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "collapsible-down": "collapsible-down 0.2s ease-in-out",
