@@ -1,4 +1,4 @@
-export const skills = {
+export const knowledge = {
   programmingLanguages: {
     id: 1,
     title: "Programming Languages",

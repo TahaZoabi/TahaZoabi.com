@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { skills } from "@/lib/Skills.ts";
+import { knowledge } from "@/lib/Knowledge.ts";
 </script>
 
 <template>
   <div class="flex flex-col justify-center gap-4 mt-12">
-    <h4 class="text-2xl font-semibold text-primary">My Skills</h4>
+    <h4 class="text-2xl font-semibold text-primary">My Knowledge</h4>
   </div>
 
   <div class="mt-4">
-    <div class="my-4" v-for="category in skills" :key="category.id">
+    <div class="my-4" v-for="category in knowledge" :key="category.id">
       <h4 class="text-xl mb-4 text-muted-foreground">
         {{ category.title }}
       </h4>
