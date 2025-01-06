@@ -26,7 +26,7 @@ import Resume from "/Resume.pdf";
           <MapPin />
           <p class="text-muted-foreground text-md">Nein, Israel</p>
         </div>
-        <p class="text-muted-foreground text-sm">
+        <p class="text-muted-foreground text-sm lg:leading-relaxed">
           Driven to build projects that expand my skills and master the latest
           in software engineering.
         </p>

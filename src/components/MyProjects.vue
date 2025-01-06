@@ -4,24 +4,22 @@ import { Github, ExternalLink } from "lucide-vue-next";
 </script>
 
 <template>
-  <div class="flex flex-col justify-center gap-6 mt-12 p-3">
-    <h4 class="text-muted-foreground text-2xl font-semibold mb-2">
-      My Projects
-    </h4>
+  <div class="flex flex-col justify-center gap-6 mt-12">
+    <h4 class="text-2xl font-semibold mb-4 text-primary">My Projects</h4>
 
     <div
       v-for="project in projects.reverse()"
       :key="project.id"
-      class="flex flex-col gap-6 mb-8 border-l-2 p-2"
+      class="flex flex-col gap-6 mb-8 border-l-2"
     >
-      <div class="w-full p-2">
+      <div class="mx-auto ml-2">
         <img
           :src="project.img"
           alt="Project Image"
-          class="w-full md:w-96 h-64 object-cover rounded-lg shadow-md"
+          class="w-full h-full object-cover rounded-lg shadow-md lg:w-2/3 ml-3"
         />
       </div>
-      <div class="flex flex-col w-full md:w-2/3 gap-4 p-2">
+      <div class="flex flex-col w-full md:w-2/3 gap-4 ml-3">
         <h3 class="text-lg md:text-2xl font-semibold mb-2">
           {{ project.title }}
         </h3>
@@ -34,7 +32,7 @@ import { Github, ExternalLink } from "lucide-vue-next";
             {{ desc }}
           </li>
         </ul>
-        <ul class="flex flex-wrap items-center gap-2 p-2">
+        <ul class="flex flex-wrap items-center gap-2 space-y-1">
           <li
             v-for="tool in project.tools"
             :key="tool"
@@ -44,13 +42,13 @@ import { Github, ExternalLink } from "lucide-vue-next";
           </li>
         </ul>
 
-        <div class="flex items-center gap-4 text-sm p-2">
+        <div class="flex items-center gap-4 text-sm mt-2">
           <a
             :href="project.sourceCode"
             target="_blank"
             class="hover:text-primary flex items-center gap-2"
           >
-            <Github />
+            <Github class="size-5" />
             View Code
           </a>
           <a
@@ -58,7 +56,7 @@ import { Github, ExternalLink } from "lucide-vue-next";
             target="_blank"
             class="hover:text-primary flex items-center gap-2"
           >
-            <ExternalLink />
+            <ExternalLink class="size-5" />
             Live Demo
           </a>
         </div>

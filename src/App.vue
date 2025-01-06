@@ -5,12 +5,12 @@ import InfoCard from "@/components/InfoCard.vue";
 
 <template>
   <main
-    class="flex flex-col md:flex-row gap-4 items-center bg-background max-w-[1200px] mx-auto"
+    class="flex flex-col lg:flex-row gap-4 mx-auto max-w-screen-sm items-center bg-background lg:max-w-[1200px]"
   >
-    <div class="w-full md:w-1/3 flex-shrink-0">
+    <div class="w-full lg:w-1/3 flex-shrink-0">
       <ProfileCard />
     </div>
-    <div class="w-full md:w-2/3 md:overflow-y-auto md:max-h-[80vh]">
+    <div class="w-full lg:w-2/3 lg:overflow-y-auto lg:max-h-[80vh]">
       <InfoCard />
     </div>
   </main>

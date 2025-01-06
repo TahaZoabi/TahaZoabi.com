@@ -6,7 +6,7 @@ import MyProjects from "@/components/MyProjects.vue";
 </script>
 
 <template>
-  <main class="p-6">
+  <main class="p-6 flex flex-col justify-center">
     <AboutMe />
     <MySkills />
     <MyEducation />
