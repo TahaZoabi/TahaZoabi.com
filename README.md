@@ -1,58 +1,49 @@
-# TahaZoabi.com
+# TahaZoabi.com - Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my personal portfolio website, [TahaZoabi.com](https://TahaZoabi.com). This site showcases who I am, my skills, education, and the projects I've worked on. It's a simple and clean representation of my work and background, built with **TypeScript** and **Vue.js**.
 
-## Recommended IDE Setup
+## About This Project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This portfolio includes the following sections:
 
-## Type Support for `.vue` Imports in TS
+- **About Me**: A brief introduction to who I am and what I do.
+- **Knowledge**: A list of the technologies and tools I'm familiar with.
+- **Education**: A summary of my academic background.
+- **Projects**: A showcase of the projects I've worked on, with links to the code and live demos when available.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Getting Started
 
-## Customize configuration
+To run the project locally, follow these steps:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. **Clone the repository**:
 
-## Project Setup
+    ```bash
+    git clone https://github.com/TahaZoabi/TahaZoabi.com.git
+    ```
 
-```sh
-npm install
-```
+2. **Install dependencies**:
 
-### Compile and Hot-Reload for Development
+    ```bash
+    cd TahaZoabi.com
+    npm install
+    ```
 
-```sh
-npm run dev
-```
+3. **Start the development server**:
 
-### Type-Check, Compile and Minify for Production
+    ```bash
+    npm run dev
+    ```
 
-```sh
-npm run build
-```
+    Now open your browser and go to `http://localhost:3000` to see the portfolio.
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+ ## Contributing
 
-```sh
-# Install browsers for the first run
-npx playwright install
+This is a personal portfolio, but contributions are welcome! If you notice any issues, suggestions, or improvements, feel free to fork the repository and create a pull request.
 
-# When testing on CI, must build the project first
-npm run build
+## Contact
 
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
+Feel free to reach out to me:
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Website: [TahaZoabi.com](https://TahaZoabi.com)
+- GitHub: [https://github.com/your-username](https://github.com/TahaZoabi)
+- Email: range.dev7@gmail.com
