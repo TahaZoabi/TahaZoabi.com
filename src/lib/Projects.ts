@@ -48,4 +48,18 @@ export const projects = [
     sourceCode: "https://github.com/TahaZoabi/TahaZoabi.com",
     liveDemo: "https://www.tahazoabi.com/",
   },
+  {
+    id: 4,
+    title: "Forecastly",
+    img: "/Forecastly.png",
+    tools: ["Vite", "TypeScript", "Vue js", "Tailwind CSS", "WeatherAPI"],
+    description: [
+      "Engineered a weather application integrating WeatherAPI for real-time weather data and forecasts.",
+      "Implemented geolocation services and city search functionality with TypeScript type safety.",
+      "Developed responsive Vue components for displaying current weather conditions and 3-day forecasts.",
+      "Built an intuitive user interface with error handling and seamless mobile responsiveness.",
+    ],
+    sourceCode: "https://github.com/TahaZoabi/Forecastly",
+    liveDemo: "https://forecastly-tau.vercel.app/",
+  },
 ];
