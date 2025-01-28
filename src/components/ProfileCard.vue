@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Download } from "lucide-vue-next";
 import { socialLinks } from "@/lib/SocialLinks.ts";
 import DarkMode from "@/components/DarkMode.vue";
-import Resume from "/Resume.pdf";
+import Resume from "/CV.pdf";
 </script>
 
 <template>
